@@ -1,0 +1,51 @@
+# JobPilot Profile
+# Your details for auto-filling applications.
+
+personal:
+  full_name: "Jane Doe"
+  email: "jane.doe@example.com"
+  phone: "+91 9876543210"
+  city: "Bangalore"
+  country: "India"
+
+education:
+  - degree: "B.Tech Computer Science"
+    institution: "IIT Example"
+    year: 2024
+    gpa: "8.5/10"
+
+skills:
+  - "Python"
+  - "FastAPI"
+  - "Django"
+  - "PostgreSQL"
+  - "Docker"
+  - "Git"
+  - "JavaScript"
+  - "React"
+  - "REST APIs"
+
+experience_summary: >
+  Recent CS graduate with hands-on internship experience building
+  backend services in Python (FastAPI, Django). Familiar with SQL
+  databases, REST API design, CI/CD, and Git workflows. Quick
+  learner eager to contribute to a collaborative engineering team.
+
+resume_path: ""
+
+links:
+  linkedin: "https://linkedin.com/in/janedoe"
+  github: "https://github.com/janedoe"
+  portfolio: ""
+
+answer_bank:
+  "notice period": "Immediate / can join within 15 days"
+  "expected salary": "As per company standards"
+  "expected ctc": "As per company standards"
+  "work authorization": "Authorized to work in India, no sponsorship needed"
+  "willing to relocate": "Yes"
+  "years of experience python": "1"
+  "years of experience javascript": "1"
+  "years of experience sql": "1"
+  "why do you want to join": "I'm excited about the opportunity to contribute my skills and grow with the team."
+  "are you comfortable working from office": "Yes"

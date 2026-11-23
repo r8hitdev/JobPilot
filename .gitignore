@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+*.egg
+.venv/
+venv/
+env/
+
+# Environment
+.env
+
+# Data
+data/*.db
+data/*.db-wal
+data/*.db-shm
+
+# Cookies (sensitive!)
+cookies/*.json
+cookies/*.txt
+cookies/*.cookie
+
+# Logs
+logs/*.log
+logs/*.png
+logs/*.jpg
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db

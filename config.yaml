@@ -1,0 +1,59 @@
+# JobPilot Configuration
+# Edit here or via the web dashboard Settings page.
+
+search:
+  titles:
+    - "Software Engineer"
+    - "Backend Developer"
+    - "Python Developer"
+  keywords:
+    - "python"
+    - "fastapi"
+    - "django"
+  locations:
+    - "Bangalore"
+    - "Remote"
+  remote_only: false
+  job_type: "both"            # internship | full-time | both
+  experience_level: "entry"   # entry | mid | senior
+  posted_within_days: 7
+
+filters:
+  must_include: []
+  exclude_keywords:
+    - "PhD required"
+    - "10+ years"
+  exclude_companies:
+    - "SpamCorp"
+  min_stipend: 0
+  min_llm_score: 70
+
+limits:
+  max_daily:
+    linkedin: 15
+    internshala: 30
+  max_per_run: 50
+  delay_min: 8
+  delay_max: 25
+  active_hours:
+    start: 9
+    end: 22
+  schedule:
+    enabled: false
+    time: "10:00"
+
+behavior:
+  dry_run: true
+  headless: true
+  easy_apply_only: true
+  restart_browser_every: 50
+
+platforms:
+  linkedin:
+    enabled: true
+  internshala:
+    enabled: true
+  google_jobs:
+    enabled: true
+  mock:
+    enabled: false
